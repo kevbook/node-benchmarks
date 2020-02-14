@@ -1,10 +1,11 @@
 'use strict';
 
 const bench = require('fastbench');
-console.log('======== object-assign ========');
 
 const OBJ1 = { a: 1, b: 2 };
 const OBJ2 = { b: 1, c: 1 };
+
+console.log('======== object-assign ========');
 
 bench([
   function objectAssign (done) {

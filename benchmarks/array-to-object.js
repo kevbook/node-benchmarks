@@ -1,9 +1,10 @@
 'use strict';
 
 const bench = require('fastbench');
-console.log('======== array-to-object ========');
 
 const ARR = ['a', 'b', 'c', 'd'];
+
+console.log('======== array-to-object ========');
 
 bench([
   function objectAssign (done) {

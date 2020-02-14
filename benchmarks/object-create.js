@@ -1,6 +1,7 @@
 'use strict';
 
 const bench = require('fastbench');
+
 console.log('======== object-create ========');
 
 bench([

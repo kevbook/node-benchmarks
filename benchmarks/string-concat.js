@@ -1,10 +1,11 @@
 'use strict';
 
 const bench = require('fastbench');
-console.log('======== string-concat ========');
 
 const STR1 = 'The quick brown fox jumps over the lazy dog. A cat is walking on the street.';
 const STR2 = 'Welcome to the jungle.';
+
+console.log('======== string-concat ========');
 
 bench([
   function simpleConcat (done) {
